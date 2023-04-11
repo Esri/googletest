@@ -730,7 +730,7 @@ class GTEST_API_ TestInfo {
   const char* tag() const { return tag_.c_str(); }
 
   // Returns the test size.
-  const char size() const { return size_; }
+  char size() const { return size_; }
 
   // Returns the name of the parameter type, or NULL if this is not a typed
   // or a type-parameterized test.
